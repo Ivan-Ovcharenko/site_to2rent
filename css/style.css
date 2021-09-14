@@ -40,8 +40,24 @@ body{
     line-height: 24px;
     color: #888888;
     text-decoration: none;
-    max-width: 300px;
     display: block;
     padding: 34px 10px 38px;
+    border-left: 1px solid #C4C4C4;
+    border-right: 1px solid #C4C4C4;
+    transition: all .3s;
+}
+/* при наведении курсора мышки(белый цвет, черный фон) */
+.menu__list-link--active,
+.menu__list-link:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.menu__list-item:first-child{
+    border-left: 1px solid #C4C4C4;
+}
+
+.menu__list-item:last-child{
+    border-right: 1px solid #C4C4C4;
 }
 
