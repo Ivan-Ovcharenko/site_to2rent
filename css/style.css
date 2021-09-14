@@ -62,7 +62,7 @@ body{
 }
 
 .slider__item{
-    min-height: 800px;
+    min-height: 600px;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
