@@ -15,6 +15,13 @@ body{
     line-height: 24px;
     color: #000;
 }
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .header{
     text-align: center;
 }
@@ -139,4 +146,46 @@ body{
     background-image: url(../images/search-item.svg);
     top: 26px;
     left: 9px;
+}
+.popular{
+    text-align: center;
+}
+
+.popular__title{
+    background-color: #000;
+    color: #fff;
+    line-height: 64px;
+    font-size: 48px;
+    font-family: 'PT Serif', serif;
+    padding: 18px 15px;
+    font-weight: 400;
+}
+
+.popular__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.popular__img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.popular__item-title{
+    padding: 30px 10px;
+    color: #888;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.popular__link{
+    background-color: #C4C4C4;
+    color: #fff;
+    padding: 13px 48px;
+    text-decoration: none;
 }
